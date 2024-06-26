@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAIL Operations</title>
+    <style>
+        @keyframes slide {
+            0% { background-image: url('images/operations1.jpg'); }
+            25% { background-image: url('images/operations2.jpg'); }
+            50% { background-image: url('images/operations3.jpg'); }
+            75% { background-image: url('images/operations4.jpg'); }
+            100% { background-image: url('images/operations5.jpg'); }
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Calibri, sans-serif;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: slide 20s infinite;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .top-bar {
+            width: 100%;
+            background: white;
+            color: #2691d9;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .logo {
+            margin-left: 20px;
+        }
+        .logo img {
+            height: 50px;
+        }
+        .button-container {
+            display: flex;
+            align-items: center;
+        }
+        .login-btn, .article-btn, .history-btn, .awards-btn, .future_plan-btn, .operation-btn, .major_units-btn {
+            margin-right: 10px;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: black;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+            transition: color 0.5s, border-color 0.5s;
+        }
+        .login-btn img {
+            vertical-align: middle; /* Align the icon vertically with the text */
+            margin-right: 5px; /* Space between the icon and the text */
+            height: 50px; /* Adjust the icon size as needed */
+        }
+        .login-btn:hover, .article-btn:hover, .history-btn:hover, .awards-btn:hover, .future_plan-btn:hover, .operation-btn:hover, .major_units-btn:hover {
+            color: #2691d9;
+            border-color: #2691d9;
+        }
+        article {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin-top: 140px;
+            border-radius: 10px;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">
+            <img src="icons/company_icon.png" alt="SAIL Logo">
+        </div>
+        <div class="button-container">
+            <a href="articles.html" class="article-btn">Articles</a>
+            <a href="history.html" class="history-btn">History</a>
+            <a href="major_units.html" class="major_units-btn">Major Units</a>
+            <a href="operations.html" class="operation-btn">Operations</a>
+            <a href="awards.html" class="awards-btn">Awards</a>
+            <a href="future_plans.html" class="future_plan-btn">Future Plans</a>
+            <a href="main_login.php" class="login-btn"><img src="icons/login_icon.jpg" alt="logo"></a>
+        </div>
+    </div>
+    <article>
+        <p>As of 31 March 2015, SAIL has 93,352 employees, as compared to 170,368 (as of 31 March 2002). There has been a continuous reduction of headcount over the past few years due to enhanced productivity and rationalised manpower.</p>
+
+        <p>The total requirement of its main raw material, iron ore, is met through its captive mines. To meet its growing requirement, capacities of existing iron ore mines are being expanded and new iron ore mines are being developed. In addition, new iron ore deposits in the states of Rajasthan, Chhattisgarh, Madhya Pradesh, Maharashtra, Odisha and Karnataka are being explored. Around 24% of its coking coal requirements are met from domestic sources, the remaining through imports. For improving coking coal security, the company is also making efforts for development of new coking coal blocks at Tasra and Sitanalla. SAIL is also India's largest miner of minerals that are involved in the steel making process, such as iron ore and coking coal. During FY 2019–2020, the company mined 32.406 million tonnes of steel making minerals.</p>
+
+        <p>SAIL produced 13.9 million tonnes of crude steel by operating at 103% of its installed capacity, which is an increase of 1% over the previous year. It also generated 710 MW of electricity during FY2014-15.</p>
+
+        <p>SAIL records turnover of over Rs 1 lakh crore. Steel Authority of India Ltd (SAIL) produced 18.733 million tonnes of hot metal and 17.366 million tonnes of crude steel during 2021–22, its best ever production performance. The increase in turnover coupled with improved operational performance, helped the company achieve its highest-ever numbers in terms of profitability.</p>
+    </article>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAIL History (1959–1973)</title>
+    <style>
+        @keyframes slide {
+            0% { background-image: url('images/history1.jpg'); }
+            25% { background-image: url('images/history2.jpg'); }
+            50% { background-image: url('images/history3.jpg'); }
+            75% { background-image: url('images/history4.jpg'); }
+            100% { background-image: url('images/history1.jpg'); }
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Calibri, sans-serif;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: slide 20s infinite;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .top-bar {
+            width: 100%;
+            background: white;
+            color: #2691d9;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .logo {
+            margin-left: 20px;
+        }
+        .logo img {
+            height: 50px;
+        }
+        .button-container {
+            display: flex;
+            align-items: center;
+        }
+        .login-btn, .article-btn, .history-btn, .awards-btn, .future_plan-btn, .operation-btn, .major_units-btn {
+            margin-right: 10px;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: black;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+            transition: color 0.5s, border-color 0.5s;
+        }
+        .login-btn img {
+            vertical-align: middle; /* Align the icon vertically with the text */
+            margin-right: 5px; /* Space between the icon and the text */
+            height: 50px; /* Adjust the icon size as needed */
+        }
+        .login-btn:hover, .article-btn:hover, .history-btn:hover, .awards-btn:hover, .future_plan-btn:hover, .operation-btn:hover, .major_units-btn:hover {
+            color: #2691d9;
+            border-color: #2691d9;
+        }
+        article {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin-top: 130px;
+            border-radius: 10px;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">
+            <img src="icons/company_icon.png" alt="Logo"> <!-- Add your logo image here -->
+        </div>
+        <div class="button-container">
+            <a class="article-btn" href="articles.html">Articles</a>
+            <a class="history-btn" href="history.html">History</a>
+            <a class="major_units-btn" href="major_units.html">Major Units</a>
+            <a class="operation-btn" href="operations.html">Operations</a>
+            <a class="awards-btn" href="awards.html">Awards</a>
+            <a class="future_plan-btn" href="future_plans.html">Future Plans</a>
+            <a class="login-btn" href="main_login.php"><img src="icons/login_icon.jpg" alt="logo"></a>
+        </div>
+    </div>
+    <article>
+        <h1>History of SAIL (1959 - 1973)</h1>
+        <p>SAIL traces its origin to the Hindustan Steel Limited (HSL) which was set up on 19 January 1954. It was initially designed to manage only one plant that was coming up at Rourkela.</p>
+        <p>For Bhilai and Durgapur Steel Plants, the preliminary work was done by the Iron and Steel Ministry. From April 1957, the supervision and control of these two steel plants were also transferred to Hindustan Steel. The registered office was originally in New Delhi. It moved to Calcutta in July 1956, and ultimately to Ranchi in December 1959.</p>
+        <p>A new steel company, Bokaro Steel Limited (Bokaro Steel Plant), was incorporated on 29 January 1964 to construct and operate the steel plant at Bokaro. IOFS officers from the Indian Ordnance Factories came on deputation to build and lead, as only the Ordnance factories were having the expertise in metallurgy for over 250 years at the time. Mantosh Sondhi, an IOFS was appointed as Bokaro's first Chairman & Managing Director, who later became the Secretary of Ministry of Steel. At Bokaro, he was succeeded by another IOFS officer, Dr. S. Bhattacharya, as CMD.</p>
+        <p>The 1 MT phases of Bhilai and Rourkela Steel Plants were completed by the end of December 1961. The 1 MT phase of Durgapur Steel Plant was completed in January 2008 after commissioning of the Wheel and Axle plant. The crude steel production of HSL went up from 1.58 MT (1959–60) to 1.6 MT.</p>
+        <p>The second phase of the Bhilai Steel Plant was completed in September 1967 after commissioning of the Wire Rod Mill. The last unit of the 1.8 MT phase of Rourkela – the Tandem Mill – was commissioned in February 1968, and the 1.6 MT stage of Durgapur Steel Plant was completed in August 1969 after commissioning of the Furnace in SMS. Thus, with the completion of the 2.5 MT stage at Bhilai, 1.8 MT at Rourkela, and 1.6 MT at Durgapur, the total crude steel production capacity of HSL was raised to 3.7 MT in 1968–69 and subsequently to 4 MT in 1972–73. IISCO was taken over as a subsidiary in 1978 and later merged in 2006.</p>
+    </article>
+</body>
+</html>
