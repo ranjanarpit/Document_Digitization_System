@@ -56,8 +56,9 @@ CreatedOn TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 UpdatedBy INT,
 UpdatedOn TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON
 UPDATE CURRENT_TIMESTAMP
-);<br>
-For any inquiries or issues related to this project, please contact on email address mentioned above or submit an issue through GitHub's issue tracker.<br><br>
+);<br><br>
+
+4. For any inquiries or issues related to this project, please contact on email address mentioned above or submit an issue through GitHub's issue tracker.<br><br>
 Contributors<br>
 Developer: Arpit Ranjan<br>
 Contact: arpitranjan204@gmail.com<br>
