@@ -41,16 +41,13 @@ a) digitization/uploads (for storing uploaded documents)<br>
 b) digitization/images (save all the images here)<br>
 c) digitization/icons (save all the icons here)<br><br>
 
-2. Database Schema:<br>
-Create a database “digitization” with the following tables:<br>
-
+2. Database Schema- create a database “digitization” with the following tables:<br>
 a) tbl_users: Stores user credentials.
 CREATE TABLE tbl_users (
 UserId INT AUTO_INCREMENT PRIMARY KEY,
 Username VARCHAR(50) NOT NULL UNIQUE,
 Password VARCHAR(255) NOT NULL
-);
-<br><br>
+);<br>
 b) tbl_documentstorage: Stores document details and extracted Keywords.
 CREATE TABLE tbl_documentstorage (
 DocumentID INT AUTO_INCREMENT PRIMARY KEY,
@@ -63,6 +60,5 @@ CreatedOn TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 UpdatedBy INT,
 UpdatedOn TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON
 UPDATE CURRENT_TIMESTAMP
-);
-<br><br>
+);<br>
 For any inquiries or issues related to this project, please contact on email address mentioned above or submit an issue through GitHub's issue tracker.<br><br>
