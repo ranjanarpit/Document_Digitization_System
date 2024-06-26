@@ -1,6 +1,6 @@
 # Document_Digitization_System
-Introduction
-Welcome to the Document Digitization System repository, developed specifically for Steel Authority of India Limited (SAIL). This project aims to streamline document management by providing a robust platform for digitizing documents, extracting text content, identifying unique keywords, and facilitating efficient retrieval.
+Introduction<br>
+Welcome to the Document Digitization System repository, developed specifically for Steel Authority of India Limited (SAIL). This project aims to streamline document management by providing a robust platform for digitizing documents, extracting text content, identifying unique keywords, and facilitating efficient retrieval.<br><br>
 
 Vision
 Our vision is to modernize document handling within SAIL by leveraging technology to improve accessibility, searchability, and overall efficiency in managing vast amounts of information. Through automated text extraction and keyword analysis, we aim to enhance productivity and decision-making processes across departments.
