@@ -34,9 +34,14 @@ LinkedIn: https://www.linkedin.com/in/arpit-ranjan-86100822b/<br>
 GitHub: https://github.com/ranjanarpit<br><br>
 
 Support<br>
-For any inquiries or issues related to this project, please contact on email address mentioned above or submit an issue through GitHub's issue tracker.<br><br>
 
-Database Schema:<br>
+1. Create Folders:<br>
+a) "digitization" for saving all the files<br>
+a) digitization/uploads (for storing uploaded documents)<br>
+b) digitization/images (save all the images here)<br>
+c) digitization/icons (save all the icons here)<br><br>
+
+2. Database Schema:<br>
 Create a database “digitization” with the following tables:<br>
 
 a) tbl_users: Stores user credentials.
@@ -44,8 +49,8 @@ CREATE TABLE tbl_users (
 UserId INT AUTO_INCREMENT PRIMARY KEY,
 Username VARCHAR(50) NOT NULL UNIQUE,
 Password VARCHAR(255) NOT NULL
-);<br><br>
-
+);
+<br><br>
 b) tbl_documentstorage: Stores document details and extracted Keywords.
 CREATE TABLE tbl_documentstorage (
 DocumentID INT AUTO_INCREMENT PRIMARY KEY,
@@ -59,3 +64,5 @@ UpdatedBy INT,
 UpdatedOn TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON
 UPDATE CURRENT_TIMESTAMP
 );
+<br><br>
+For any inquiries or issues related to this project, please contact on email address mentioned above or submit an issue through GitHub's issue tracker.<br><br>
