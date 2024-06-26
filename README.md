@@ -31,7 +31,7 @@ Contributors
 Developer: Arpit Ranjan
 Contact: arpitranjan204@gmail.com
 LinkedIn: https://www.linkedin.com/in/arpit-ranjan-86100822b/
-GitHub: [Link to Your GitHub Profile]
+GitHub: https://github.com/ranjanarpit
 
 Support
 For any inquiries or issues related to this project, please contact on email address mentioned above or submit an issue through GitHub's issue tracker.
