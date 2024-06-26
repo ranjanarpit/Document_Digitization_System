@@ -38,13 +38,13 @@ c) digitization/icons (save all the icon files)<br><br>
 2. Download and install Xampp server (apache and MySQL)<br><br>
 
 3. Database Schema- create a database “digitization” with the following tables:<br><br>
-a) tbl_users: Stores user credentials.
+a) tbl_users: Stores user credentials.<br>
 CREATE TABLE tbl_users (
 UserId INT AUTO_INCREMENT PRIMARY KEY,
 Username VARCHAR(50) NOT NULL UNIQUE,
 Password VARCHAR(255) NOT NULL
 );<br><br>
-b) tbl_documentstorage: Stores document details and extracted Keywords.
+b) tbl_documentstorage: Stores document details and extracted Keywords.<br>
 CREATE TABLE tbl_documentstorage (
 DocumentID INT AUTO_INCREMENT PRIMARY KEY,
 DocumentTitle VARCHAR(255) NOT NULL,
