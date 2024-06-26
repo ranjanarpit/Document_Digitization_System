@@ -30,14 +30,16 @@ f) Access the system through a web browser and start using its features.<br><br>
 Support<br>
 
 1. Create a Folder for:<br>
-a) "digitization" - for saving all the files<br>
+a) "digitization" - create a folder "digitization" and save all the downloaded files under it<br>
 a) digitization/uploads - for storing uploaded documents<br>
 b) digitization/images - save all the image files under "images" forder<br>
 c) digitization/icons - save all the icon files under "icons" folder<br><br>
 
 2. Download and install Xampp server (apache and MySQL)<br><br>
 
-3. Database Schema- create a database “digitization” with the following tables:<br><br>
+3. Ensure to download Poppler library (v23.11.0) for pdf-to-text conversion.<br><br> 
+
+4. Database Schema- create a database “digitization” with the following tables:<br><br>
 a) tbl_users: Stores user credentials.<br>
 CREATE TABLE tbl_users (
 UserId INT AUTO_INCREMENT PRIMARY KEY,
@@ -58,7 +60,8 @@ UpdatedOn TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON
 UPDATE CURRENT_TIMESTAMP
 );<br><br>
 
-4. For any inquiries or issues related to this project, please contact on email address mentioned above or submit an issue through GitHub's issue tracker.<br><br>
+5. For any inquiries or issues related to this project, please contact on email address mentioned above or submit an issue through GitHub's issue tracker.<br><br>
+
 Contributors<br>
 Developer: Arpit Ranjan<br>
 Contact: arpitranjan204@gmail.com<br>
