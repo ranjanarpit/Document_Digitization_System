@@ -11,35 +11,29 @@ Our mission is to develop a user-friendly system that integrates seamlessly into
 Project Details<br>
 Technologies Used: HTML, CSS (Frontend), PHP, MySQL (Backend)<br>
 Key Features:<br>
-User Authentication: Secure signup and login functionality.<br>
-Document Upload: Capability to upload PDF documents.<br>
-Text Extraction: Automated extraction of text content from uploaded documents.<br>
-Keyword Analysis: Identification of unique keywords for efficient document retrieval.<br>
-Navigation Bar: Provides essential information about SAIL and easy access to system features.<br>
-Search Functionality: Enables users to search for documents based on keywords.<br>
-Preview and Download: Allows users to preview documents and download them as needed.<br><br>
+a) User Authentication: Secure signup and login functionality.<br>
+b) Document Upload: Capability to upload PDF documents.<br>
+c) Text Extraction: Automated extraction of text content from uploaded documents.<br>
+d) Keyword Analysis: Identification of unique keywords for efficient document retrieval.<br>
+e) Navigation Bar: Provides essential information about SAIL and easy access to system features.<br>
+f) Search Functionality: Enables users to search for documents based on keywords.<br>
+g) Preview and Download: Allows users to preview documents and download them as needed.<br><br>
 
 Usage<br>
-To deploy and use the Document Digitization System:<br>
-Clone the repository to your local environment.<br>
-Set up a MySQL database (provided in support section) and import the provided schema.<br>
-Configure database credentials in the PHP files.<br>
-Host the project on a PHP-enabled web server.<br>
-Access the system through a web browser and start using its features.<br><br>
-
-Contributors<br>
-Developer: Arpit Ranjan<br>
-Contact: arpitranjan204@gmail.com<br>
-LinkedIn: https://www.linkedin.com/in/arpit-ranjan-86100822b/<br>
-GitHub: https://github.com/ranjanarpit<br><br>
+a) To deploy and use the Document Digitization System:<br>
+b) Clone the repository to your local environment.<br>
+c) Set up a MySQL database (provided in support section) and import the provided schema.<br>
+d) Configure database credentials in the PHP files.<br>
+e) Host the project on a PHP-enabled web server.<br>
+f) Access the system through a web browser and start using its features.<br><br>
 
 Support<br>
 
 1. Create Folders:<br>
 a) "digitization" for saving all the files<br>
 a) digitization/uploads (for storing uploaded documents)<br>
-b) digitization/images (save all the images here)<br>
-c) digitization/icons (save all the icons here)<br><br>
+b) digitization/images (save all the image files)<br>
+c) digitization/icons (save all the icon files)<br><br>
 
 2. Database Schema- create a database “digitization” with the following tables:<br>
 a) tbl_users: Stores user credentials.
@@ -47,7 +41,7 @@ CREATE TABLE tbl_users (
 UserId INT AUTO_INCREMENT PRIMARY KEY,
 Username VARCHAR(50) NOT NULL UNIQUE,
 Password VARCHAR(255) NOT NULL
-);<br>
+);<br><br>
 b) tbl_documentstorage: Stores document details and extracted Keywords.
 CREATE TABLE tbl_documentstorage (
 DocumentID INT AUTO_INCREMENT PRIMARY KEY,
@@ -62,3 +56,8 @@ UpdatedOn TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON
 UPDATE CURRENT_TIMESTAMP
 );<br>
 For any inquiries or issues related to this project, please contact on email address mentioned above or submit an issue through GitHub's issue tracker.<br><br>
+Contributors<br>
+Developer: Arpit Ranjan<br>
+Contact: arpitranjan204@gmail.com<br>
+LinkedIn: https://www.linkedin.com/in/arpit-ranjan-86100822b/<br>
+GitHub: https://github.com/ranjanarpit<br><br>
