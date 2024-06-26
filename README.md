@@ -29,11 +29,11 @@ f) Access the system through a web browser and start using its features.<br><br>
 
 Support<br>
 
-1. Create Folders:<br>
-a) "digitization" for saving all the files<br>
-a) digitization/uploads (for storing uploaded documents)<br>
-b) digitization/images (save all the image files)<br>
-c) digitization/icons (save all the icon files)<br><br>
+1. Create a Folder for:<br>
+a) "digitization" - for saving all the files<br>
+a) digitization/uploads - for storing uploaded documents<br>
+b) digitization/images - save all the image files under "images" forder<br>
+c) digitization/icons - save all the icon files under "icons" folder<br><br>
 
 2. Download and install Xampp server (apache and MySQL)<br><br>
 
