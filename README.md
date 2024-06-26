@@ -37,7 +37,7 @@ c) digitization/icons (save all the icon files)<br><br>
 
 2. Download and install Xampp server (apache and MySQL)<br><br>
 
-3. Database Schema- create a database “digitization” with the following tables:<br>
+3. Database Schema- create a database “digitization” with the following tables:<br><br>
 a) tbl_users: Stores user credentials.
 CREATE TABLE tbl_users (
 UserId INT AUTO_INCREMENT PRIMARY KEY,
