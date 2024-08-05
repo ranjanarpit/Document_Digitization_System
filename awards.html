@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAIL Awards</title>
+    <style>
+        @keyframes slide {
+            0% { background-image: url('images/awards1.jpg'); }
+            25% { background-image: url('images/awards2.jpg'); }
+            50% { background-image: url('images/awards3.jpeg'); }
+            75% { background-image: url('images/awards4.jpg'); }
+            100% { background-image: url('images/awards5.jpg'); }
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Calibri, sans-serif;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: slide 20s infinite;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .top-bar {
+            width: 100%;
+            background: white;
+            color: #2691d9;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .logo {
+            margin-left: 20px;
+        }
+        .logo img {
+            height: 50px;
+        }
+        .button-container {
+            display: flex;
+            align-items: center;
+        }
+        .login-btn, .article-btn, .history-btn, .awards-btn, .future_plan-btn, .operation-btn, .major_units-btn {
+            margin-right: 10px;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: black;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+            transition: color 0.5s, border-color 0.5s;
+        }
+        .login-btn img {
+            vertical-align: middle; 
+            margin-right: 5px; 
+            height: 50px; 
+        }
+        .login-btn:hover, .article-btn:hover, .history-btn:hover, .awards-btn:hover, .future_plan-btn:hover, .operation-btn:hover, .major_units-btn:hover {
+            color: #2691d9;
+            border-color: #2691d9;
+        }
+        article {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin-top: 140px;
+            border-radius: 10px;
+            max-width: 1400px;
+            max-height: 60vh;
+            overflow-y: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">
+            <img src="icons/company_icon.png" alt="SAIL Logo">
+        </div>
+        <div class="button-container">
+            <a href="articles.html" class="article-btn">Articles</a>
+            <a href="history.html" class="history-btn">History</a>
+            <a href="major_units.html" class="major_units-btn">Major Units</a>
+            <a href="operations.html" class="operation-btn">Operations</a>
+            <a href="awards.html" class="awards-btn">Awards</a>
+            <a href="future_plans.html" class="future_plan-btn">Future Plans</a>
+            <a href="main_login.php" class="login-btn"><img src="icons/login_icon.jpg" alt="logo"></a>
+        </div>
+    </div>
+    <article>
+        <p><strong>"Best of all" Rajiv Gandhi National Quality Award</strong> in 1993, 2006, and 2007 for their Bhilai and Bokaro plants<sup>[30]</sup></p>
+        <p><strong>Quality Summit New York Gold Trophy 2007</strong> (International Award for Excellence & Business Prestige) and Award of Excellence Maintenance for Sumitomo Heavy Industry & TSUBKIMOTO-KOGIO, Japan won by Alloy Steel Plant, Durgapur.</p>
+        <p><strong>SAIL</strong> was featured in the 2008 list of Forbes Global 2000 companies at position 647.<sup>[31]</sup></p>
+        <p><strong>Golden Peacock Award for Combating Climate Change</strong> – 2008 for BSP, Occupational Health and Safety- 2008 for BSL</p>
+        <p><strong>National Safety Award</strong> to Bhilai Steel Plant announced by the Ministry of Labour & Employment, Government of India – 2008</p>
+        <p><strong>Durgapur Steel Plant</strong> won the 2nd Prize in the Association of Business Communicators of India Awards – 2008.</p>
+        <p><strong>Ispat Bhasha Bharati</strong>. The Rajbhasha Journal of SAIL has been awarded with the first prize under the All India House Journal Award Scheme – 2008–09</p>
+        <p><strong>Salem Steel Plant</strong> received the Greentech Gold Award in Metal and Mining Sector – 2008–09.</p>
+        <p><strong>Golden Peacock Award for Corporate Social Responsibility</strong> won by Bhilai Steel Plant (BSP) for the third year in a row – 2009.</p>
+        <p><strong>Rourkela Steel Plant</strong> collected the Srishti Good Green Governance (G-Cube) Award – 2009.</p>
+        <p><strong>Greentech HR Excellence Award</strong> secured by the Durgapur Steel Plant – 2009</p>
+        <p>The steel township of <strong>Rourkela Steel Plant (RSP)</strong> has been ranked 14th in sanitation and cleanliness by Union Urban Development Ministry – 2009–10</p>
+        <p><strong>Greentech Safety Gold Award</strong> was given to Bhilai Steel Plant – 2010</p>
+        <p><strong>The HR Excellence Award</strong> by the Greentech Foundation won by Bhilai Steel Plant – 2010</p>
+        <p><strong>SSP</strong> has won the Greentech Silver Award in Training Category of Greentech HR Excellence Awards – 2010.</p>
+        <p><strong>Award for financial and operational strength</strong> by Indian Institute of Industrial Engineering (IIIE) - 2009–10</p>
+        <p><strong>Golden Peacock Environment Management Award</strong> – 2011</p>
+        <p><strong>Randstad Award for HR Practices and Employer Branding</strong> under 'Manufacturing Industries' category – 2011</p>
+        <p><strong>Maiden Wockhardt Shining Star CSR Award</strong> in the Iron & Steel Sector category – 2011.</p>
+        <p><strong>Salem Steel Plant (SSP)</strong> has won the National Sustainability Award for the 6th time in succession and 13th time since inception of the award from Indian Institute of Metals (IIM) - 2011</p>
+        <p>Of the 33 Prime Minister's <strong>Shram Awards</strong> announced for 2010 by the Ministry of Labour, Government of India, 17 of which went to PSUs, SAIL employees won 11 awards. Of the total number of 76 awardees for the year, 45 belong to SAIL – a remarkable distinction for any organisation. Maharatna SAIL has received the Golden Peacock Environment Management Award for the year 2011. The award, in recognition of SAIL's initiatives and achievements in the field of environment management, was presented by Union Minister for Home Affairs Shri P. Chidambaram on 24 June 2011</p>
+        <p>74 of a total of 128 awardees who have won the Vishwakarma Rashtriya Puraskar (VRP) are from SAIL. The 15 out of 28 awards won by SAIL went to our 74 employees for the performance year 2008. Bhilai Steel Plant won 7 such awards involving 36 employees, Bokaro Steel Plant won 6 awards involving 29 employees. Durgapur Steel Plant and Salem Steel Plant both won 1 award each involving five and four employees respectively. SAIL employees have won 4 out of 5 awards of Class A, which is the highest number of A Class awards won by any PSU in India.</p>
+    </article>
+</body>
+</html>

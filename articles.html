@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steel Authority of India Limited (SAIL)</title>
+    <style>
+        @keyframes slide {
+            0% { background-image: url('images/articles1.jpg'); }
+            25% { background-image: url('images/articles2.jpg'); }
+            50% { background-image: url('images/articles3.jpg'); }
+            75% { background-image: url('images/articles4.jpg'); }
+            100% { background-image: url('images/articles5.png'); }
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Calibri, sans-serif;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: slide 20s infinite;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .top-bar {
+            width: 100%;
+            background: white;
+            color: #2691d9;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .logo {
+            margin-left: 20px;
+        }
+        .logo img {
+            height: 50px;
+        }
+        .button-container {
+            display: flex;
+            align-items: center;
+        }
+        .login-btn, .article-btn, .history-btn, .awards-btn, .future_plan-btn, .operation-btn, .major_units-btn {
+            margin-right: 10px;
+            padding: 10px 20px;
+            background-color: transparent;
+            color: black;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+            transition: color 0.5s, border-color 0.5s;
+        }
+        .login-btn img {
+            vertical-align: middle; /* Align the icon vertically with the text */
+            margin-right: 5px; /* Space between the icon and the text */
+            height: 50px; /* Adjust the icon size as needed */
+        }
+        .login-btn:hover, .article-btn:hover, .history-btn:hover, .awards-btn:hover, .future_plan-btn:hover, .operation-btn:hover, .major_units-btn:hover {
+            color: #2691d9;
+            border-color: #2691d9;
+        }
+        article {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin-top: 140px;
+            border-radius: 10px;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+        }
+        p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">
+            <img src="icons/company_icon.png" alt="Logo"> <!-- Add your logo image here -->
+        </div>
+        <div class="button-container">
+            <a class="article-btn" href="articles.html">Articles</a>
+            <a class="history-btn" href="history.html">History</a>
+            <a class="major_units-btn" href="major_units.html">Major Units</a>
+            <a class="operation-btn" href="operations.html">Operations</a>
+            <a class="awards-btn" href="awards.html">Awards</a>
+            <a class="future_plan-btn" href="Future_plans.html">Future Plans</a>
+            <a class="login-btn" href="main_login.php"><img src="icons/login_icon.jpg" alt="logo"></a>
+        </div>
+    </div>
+    <article>
+        <p>Steel Authority of India Limited (SAIL) is a central public sector undertaking (PSU) based in New Delhi, India. It is under the ownership of the Ministry of Steel, Government of India with an annual turnover of ₹105,398 crore (US$13 billion) for the fiscal year 2022-23. Incorporated on 24 January 1973, SAIL has 57,139 employees (as of 1 December 2023). With an annual production of 18.29 million metric tons, it is the largest government owned steel producer. The hot metal production capacity of the company will further increase and is expected to reach a level of 50 million tonnes per annum by 2025.</p>
+        
+        <p>SAIL operates and owns five integrated steel plants at Bhilai, Rourkela, Durgapur, Bokaro and Burnpur (Asansol) and three special steel plants at Salem, Durgapur and Bhadravathi. It also owns a Ferro Alloy plant at Chandrapur. As a part of its global ambition, the PSU is undergoing a massive expansion and modernisation programme involving upgrading and building new facilities with emphasis on state of the art green technology. According to a recent survey, SAIL is one of India's fastest growing PSUs. The PSU also has an R&D Centre for Iron & Steel (RDCIS) and a Centre for Engineering in Ranchi, Jharkhand.</p>
+        
+        <p>Steel Authority of India Limited (SAIL) has a total of 692 patents globally, out of which 343 have been granted. Of these 692 patents, more than 64% patents are active. India is where SAIL has filed the maximum number of patents, followed by Egypt and Germany. It has generated an annual revenue of US $9.0 billion in the year 2021.</p>
+    </article>
+</body>
+</html>
